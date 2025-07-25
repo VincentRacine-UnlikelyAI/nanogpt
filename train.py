@@ -215,7 +215,7 @@ if os.path.exists(always_save_checkpoint_path):
     print(f"Resuming training from {always_save_checkpoint_path}")
     checkpoint = torch.load(always_save_checkpoint_path)
     m.load_state_dict(checkpoint)
-    optimizer.load_state_dict(checkpoint['optimizer'])
+    # optimizer.load_state_dict(checkpoint['optimizer'])
 
 # Train the transformer
 if should_train:
@@ -244,4 +244,4 @@ if should_train:
 # generate from the model
 print("Generating...")
 context = torch.zeros((1, 1), dtype=torch.long, device=device)
-print(decode(m.generate(context, max_new_tokens=3000)[0].tolist()))
+print(decode(m.generate(context, max_new_tokens=1000)[0].tolist()))

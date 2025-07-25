@@ -10,7 +10,8 @@ uv run bigram.py
 ## Example run
 
 ```text
-(nanogpt) (base) vincentracine@Mac nanogpt % uv run bigram.py
+(nanogpt) (base) vincentracine@Mac nanogpt % uv run train.py
+Model size is 10.788929 M paramaters
 step 0: train loss 4.2833, val loss 4.2869
 step 500: train loss 2.0049, val loss 2.0904
 step 1000: train loss 1.5985, val loss 1.7810
@@ -22,28 +23,40 @@ step 3500: train loss 1.1818, val loss 1.4931
 step 4000: train loss 1.1439, val loss 1.4880
 step 4500: train loss 1.1090, val loss 1.4761
 
-ESCALUS:
-Enour, chancle your lords; sir, you that of
-yours father.
+Generating...
 
-FRORIZEL:
-It is all unders' youth, there coming.
+Only Richard and Bolingfather,
+With a fresh my fair kinsman slaids will one mortal,
+Feet, take no someticocing in him:
+This, coming hither hath rust it like enter all,
+Untain'd from joys oble revenge, rejoice
+By assaulty; all, if he wath on gather,
+'Tis not flay rockly disment
+To abstand at a wall, sworright.'
+Lo, thou wine!
 
-KING RICHARD II:
-These day you are:dsweech to me, indit please
-Your midwife, at yours, fell into ours?
+ARCHIDABERDONUS:
+We what we hear, he hatch'd a his
+not hard as, if made he satisforth
+Canhildren unto the infecturable Verous spirit.
 
-ELBOW:
-Ay, if the hatter I onchange made your decrities, my
-body party profous will their purposes!
-
-FLORIZEL:
-Ay, good my gage in one enfrusion.
+Messenger:
+Come, I am past, help'st me no to turn
+What yielded. May I throw my moons--I'll yield, I
+A hush die for this business to-morrow, be revenged
+Wise, nor extrement; for is but I so brazele, to swear incent you
+feasances, and mourn; say you, if you meet me in,
+to my harm; I'll undergroe my love.
+If you remedy?
 
 ROMEO:
-Great Juliet! why, how looks you?
+And yea it: but as know,
+Your lords love a harsed fearful man, indeed.
 
-JULIET:
-Engle is not a boot; but sad at me,
-Edward, revenged the behalf, and tread in a c
+Must not resolve it.
+There overlord.
+
+ROMEO:
+Much yet divour's too: he sometimes and let him with the
+common of disposeration; and by some
 ```
